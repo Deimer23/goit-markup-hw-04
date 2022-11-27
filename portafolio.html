@@ -9,35 +9,48 @@
     <title>Portafolio</title>
   </head>
   <body>   
-    <header class="top-line">      
-      <div class="container">        
+    <header class="top-line">
+      <div class="container">
         <nav>
-          <p class="logo-top logo"><a href="#">WebStudio</a></p>
+          <p class="logo-top logo"><a href="index.html">WebStudio</a></p>
           <ul class="menu-nav">
             <li><a href="studio.html" target="_parent">Estudios</a></li>
             <li><a href="portafolio.html" target="_parent">Portafolio</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
-        </nav>  
+        </nav>
         <ul class="contacts-menu">
-          <li>info@devstudio.com</li>
-          <li>+52 55 5529 6000</li>
-        </ul>                
+          <li>
+            <a href="#" class="item-contact">
+              <svg class="email icon-contact">
+                <use href="/images/svg/sprite.svg#email"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="#" class="item-contact">
+              <svg class="smartphone icon-contact">
+                <use href="/images/svg/sprite.svg#smartphone"></use>
+              </svg>
+              +52 55 5529 6000
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
         <main>
-          <!-- <section class="menu-second"> -->
+         
             <section class="portafolio">
             <nav class="menu-second">
               <ul>
-                <li><a href="">Todos</a></li>
-                <li><a href="">Sitio Web</a></li>
-                <li><a href="">Aplicaciones</a></li>
-                <li><a href="">Diseño</a></li>
-                <li><a href="">Marketing</a></li>
+                <li><button class="buttons" type="button">Todos</button></li>
+                <li><button class="buttons" type="button">Sitio Web</button></li>
+                <li><button class="buttons" type="button">Aplicaciones</button></li>
+                <li><button class="buttons" type="button">Diseño</button></li>
+                <li><button class="buttons" type="button">Marketing</button></li>
               </ul>
-            </nav>
-          <!-- </section> -->
+            </nav>         
           
             <ul class="galery">
               <li>
@@ -127,26 +140,41 @@
         <footer class="footer">
           <div class="container">
             <div>
-              <p class="logo-down logo"><a href="#">WebStudio</a></p>
+              <p class="logo-down logo"><a href="index.html">WebStudio</a></p>
               <address>
                 <ul>
-                  <li>Calz. Ticomán 500,</li>
-                  <li>Ciudad de México, CDMX, México</li>
-                  <li>info@example.com</li>
-                  <li>+52 55 5529 6000</li>
+                  <li><p class="direction">Ticomán 500,</p></li>
+                  <li><p class="direction">Ciudad de México, CDMX, México</p></li>
+                  <li><p class="direction">info@example.com</p></li>
+                  <li><p class="direction">+52 55 5529 6000</p></li>
                 </ul>
-              </address> 
+              </address>
             </div>
-             <div>
+            <div>
               <h4>ENCUENTRENOS EN</h4>
               <ul class="social-media">
-                <li><img src="images/images-portafolio/instagram.jpg" alt="Logo de instagram"></li>
-                <li><img src="images/images-portafolio/twiter.jpg" alt="Logo de Twiter"></li>
-                <li><img src="images/images-portafolio/facebook.jpg" alt="Logo de Facebook"></li>
-                <li><img src="images/images-portafolio/linkedin.jpg" alt=""></li>
+                <li>
+                  <img
+                    src="images/images-portafolio/instagram.jpg"
+                    alt="Logo de instagram"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/images-portafolio/twiter.jpg"
+                    alt="Logo de Twiter"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/images-portafolio/facebook.jpg"
+                    alt="Logo de Facebook"
+                  />
+                </li>
+                <li><img src="images/images-portafolio/linkedin.jpg" alt="" /></li>
               </ul>
-             </div>       
-          </div>     
-        </footer>   
+            </div>
+          </div>
+        </footer>
   </body>
 </html>
