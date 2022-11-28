@@ -224,12 +224,13 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10px;
 }
 
 .team ul li .social-media-team .team-icon{  
-  width: 44px;
-  height: 44px; 
-  fill: #AFB1B8; 
+  width: 20px;
+  height: 20px; 
+  fill: #AFB1B8;   
 }
 .team ul li .social-media-team li:hover .team-icon{
   fill:#2193f3;  
